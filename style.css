@@ -1,0 +1,91 @@
+body{
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#MAIN{
+    display: none;
+}
+#BEGIN button{
+    color: red;
+    border: 1px solid red;
+    height: 24px;
+    background-color: lightgray;
+}
+#BEGIN button:hover{
+    background-color: red;
+    color: white;
+}
+#topnav{
+    height: 10vh;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    display:block;
+    float: left;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    padding-top: 5vh;
+}
+#topnav a{
+    margin-right: 16px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+#topnav a:active{
+    color: red;
+    text-decoration: none;
+}
+.section{
+    left: 0;
+    height: 85vh;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 100%;
+   /* background-color: rgb(197,197,251);*/
+   background-color: lightgrey;
+    
+}
+.sectionTop{
+    margin-left: 1%;
+    background-color: white;
+}
+.sectionTop a{
+    font-weight: bolder;
+    color: grey;
+    font-size: 14px;
+    line-height: 42px;
+}
+.sectionTop a:hover, .sectionTop a:active{
+    color: black;
+}
+#HOME{
+    margin-top: 11vh;
+    text-align: center;
+}
+#MOVIE{
+    
+}
+.header{
+    margin-left: 1%;
+    color: red;
+    border-bottom: 1px solid red;
+}
+#BOTTOM{
+    background-color: rgb(43, 43, 45);
+    height: 20vh;
+    margin-left: 0;
+    
+}
+#BOTTOM h2{
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+}
