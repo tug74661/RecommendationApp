@@ -28,9 +28,23 @@ const items = document.querySelectorAll(
     ".container, .movie-list-title, .navbar, .sidebar, ileft-menu-icon, .toogle"
 );
 
-ball.addEventListener("click", () => {
+/*ball.addEventListener("click", () => {
     items.forEach((item) => {
         item.classList.toogle("active");
     });
     ball.classList.toogle("active");
-})
+    //console.log("click registered");
+});*/
+
+  const light = document.getElementById("moon");
+  const dark = document.getElementById("sun");
+
+  light.addEventListener("click", () =>{
+    document.querySelector(".navbar").style.backgroundColor = "white";
+    document.getElementById("toogleBall").style.left = "1px";
+  });
+
+  dark.addEventListener("click", () =>{
+    document.querySelector(".navbar").style.backgroundColor = "black";
+    document.getElementById("toogleBall").style.right = "1px";
+  });
